@@ -111,6 +111,7 @@ h1 {
 
 .todo-row {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin: 4px auto;
@@ -143,10 +144,19 @@ h1 {
   border-left-width: 7px;
 }
 
+.todo-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 0.3rem;
+}
+
 .icons {
   display: flex;
   align-items: center;
   font-size: 24px;
+  vertical-align: text-bottom;
   cursor: pointer;
 }
 
@@ -156,5 +166,12 @@ h1 {
 }
 
 .edit-icon {
+  color: #fff;
+}
+
+.calendar-icon {
+  font-size: 17px;
+  vertical-align: text-bottom;
+  margin-right: 5px;
   color: #fff;
 }
