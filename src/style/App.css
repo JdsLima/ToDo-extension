@@ -152,10 +152,13 @@ h1 {
   margin-top: 0.3rem;
 }
 
+.todo-wrapper p {
+  font-size: 1rem;
+}
 .icons {
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 20px;
   vertical-align: text-bottom;
   cursor: pointer;
 }
